@@ -1,0 +1,23 @@
+{
+    "name": "xincap/address",
+    "description": "china new address",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Xincap",
+            "email": "xincap@yeah.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "5.1.*|5.2.*"
+    },
+    "autoload": {
+        "classmap": [
+        ],
+        "psr-4": {
+            "Xincap\\Address\\": "src/"
+        }
+    }    
+}
